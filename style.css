@@ -1,7 +1,8 @@
 
 body{
     background-color: white;
-    font-family: myfont;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
 }
 nav{
     margin-bottom: 0px;
@@ -16,7 +17,7 @@ nav a:not(.nav-brand):hover{
 }
 h1,h2,h3,h4,h5,h6{
     font-weight: bold;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Merriweather, serif;
 }
 .row{
     padding: 16px 32px;
