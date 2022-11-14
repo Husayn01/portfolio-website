@@ -1,7 +1,4 @@
-@font-face {
-    font-family: "myfont";
-    src: local("myfont"),url("fonts\Montserrat-Italic-VariableFont_wght.ttf");
-}
+
 body{
     background-color: white;
     font-family: myfont;
@@ -30,7 +27,7 @@ h1,h2,h3,h4,h5,h6{
 .first-row .btn-1{
    background-image: linear-gradient(to right, rgba(88,119,253),rgba(69,87,197));
    color: #fff;
-   margin-right: 32px;
+   margin-right: 24px;
    border-radius: 16px;
 }
 .first-row .btn-2{
@@ -41,6 +38,10 @@ h1,h2,h3,h4,h5,h6{
  .first-row img{
    margin-top: 3rem;
  }
+.btn-hire{
+text-align:center;
+padding-top:2rem;
+}
  .second-row .col-sm-4{
     text-align: center;
     margin-top: 32px;
