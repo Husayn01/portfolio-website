@@ -2,41 +2,21 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
-import ErrorPage from './pages/ErrorPage';
-import './index.css';
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
 import About from './pages/About';
 import Projects from './pages/Projects';
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home />,
-    // errorElement: <ErrorPage />,
-  },
-  {
-    path: "*",
-    element: <ErrorPage />,
-  },
-  {
-    path: "/contact",
-    element: <Contact />,
-  },
-  {
-    path: "/about",
-    element: <About/>,
-  },
-  {
-    path: "/projects",
-    element: <Projects/>,
-  },
-]);
+import './index.css';
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="about" element={<About />} />
+        <Route path="projects" element={<Projects />} />
+        {/* <Route path="/ErrorPage" element={<Projects />} /> */}
+      </Routes>
+    </HashRouter>
   </React.StrictMode>
 );

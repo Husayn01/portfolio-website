@@ -10,9 +10,6 @@ const RecentGis = () => {
         <h1 className="text-2xl font-bold text-gray-900 dark:text-gray-200">
         GIS Analysis Projects
         </h1>
-        <h3 className="text-sm font-bold text-gray-900 dark:text-gray-200">
-        See More →
-        </h3>
         </div>
         <main className="container mx-auto">
         <Card events={cardData} />
