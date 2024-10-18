@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
-import About from './pages/About';
+import Experience from './pages/Experience';
 import Projects from './pages/Projects';
 import './index.css';
 import { HashRouter, Routes, Route } from "react-router-dom";
@@ -13,7 +13,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/experience" element={<Experience />} />
         <Route path="/projects" element={<Projects />} />
         {/* <Route path="/ErrorPage" element={<Projects />} /> */}
       </Routes>

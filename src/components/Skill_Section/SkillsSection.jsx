@@ -29,7 +29,7 @@ const SkillsSection = () => {
     {
       title: "GIS Analysis",
       description: "I can transform complex spatial data into visually stunning maps that reveal the hidden treasures of our Earth. Whether it's analyzing terrain, plotting geospatial patterns, or making sense of spatial data, I bring a sense of adventure and precision to every project. Who needs a fedora and a whip when you've got GIS?",
-      imageurl: "/images/icons/location.png",
+      imageurl: "images/icons/location.png",
       experiences: [
         { 
           name: "ArcGIS Pro",
@@ -57,7 +57,7 @@ const SkillsSection = () => {
     {
       title: "Data Analysis",
       description: "I dive deep into data sets, uncovering trends, correlations, and anomalies that others might miss. From crunching numbers to crafting dashboards, I bring clarity to chaos and help businesses make data-driven decisions with confidence. Who knew number-crunching could be so exciting? Elementary, my dear Watson!",
-      imageurl: "/images/icons/exploration.png",
+      imageurl: "images/icons/exploration.png",
       experiences: [
         { 
           name: "Excel",
