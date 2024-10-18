@@ -40,7 +40,7 @@ const App = () => {
         <main className="container mx-auto text-center pt-10">
           <div className="flex justify-center items-center mb-4">
             <img
-              src={"/images/Headshot.jpg"} alt={"Profile Photo"} className="w-52 h-52 rounded-full object-cover"/>
+              src={"images/Headshot.jpg"} alt={"Profile Photo"} className="w-52 h-52 rounded-full object-cover"/>
           </div>
           <h1 className="text-5xl font-bold text-gray-800 dark:text-gray-200 mb-6">
             Hello&#128075;, I'm Hussaini Ahmed

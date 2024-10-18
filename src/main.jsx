@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import About from './pages/About';
@@ -12,9 +12,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="about" element={<About />} />
-        <Route path="projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
         {/* <Route path="/ErrorPage" element={<Projects />} /> */}
       </Routes>
     </HashRouter>
