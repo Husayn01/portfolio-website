@@ -10,7 +10,7 @@ const ExperienceItem = ({ year, title, description, icon, index }) => (
       </div>
       <div>
         <h3 className="text-xl font-bold text-gray-800 dark:text-white">{title}</h3>
-        <span className="text-sm text-gray-500 dark:text-gray-400">{year}</span>
+        <span className="text-md text-gray-500 dark:text-gray-400">{year}</span>
       </div>
     </div>
     <p className="text-gray-600 dark:text-gray-300">{description}</p>
@@ -35,21 +35,34 @@ function Experience() {
 
   const experiences = [
     {
-      year: 2019,
-      title: "Web Development",
-      description: "Led frontend development for a major e-commerce platform, implementing responsive designs and optimizing performance.",
+      year: "Shell Nigeria - 2024",
+      title: "Production Geologist",
+      description: "As a Geoscience Intern at Shell, I conducted detailed geological analyses and \
+      contributed to field projects aimed at understanding complex subsurface structures. My key \
+      responsibilities included interpreting seismic data, assisting in reservoir modeling, and \
+      collaborating with multidisciplinary teams to improve resource exploration techniques. \
+      By applying geospatial tools such as ArcGIS and integrating data-driven methodologies, \
+      I optimized workflows that contributed to the team's accurate geological interpretations.",
       icon: "💻"
     },
     {
-      year: 2018,
-      title: "Web Designing",
-      description: "Designed user interfaces for mobile applications, focusing on user experience and accessibility.",
+      year: "Humanitarian Openstreetmap Team(HOT) - 2024",
+      title: "Mapper",
+      description: "As a volunteer with the Humanitarian OpenStreetMap Team \
+      (HOT), I contributed to mapping underserved and disaster-prone regions across Africa. \
+      I utilized OpenStreetMap to map over 500 km² of terrain, providing crucial geospatial data\
+       to assist humanitarian efforts. My contributions enabled better resource allocation during \
+       disaster responses and improved planning for NGOs and governmental organizations working in \
+       affected areas.",
       icon: "🎨"
     },
     {
-      year: 2017,
-      title: "JavaScript",
-      description: "Developed complex JavaScript applications, utilizing modern frameworks and libraries.",
+      year: "GDSC, FUTMinna",
+      title: "Lead Data Analyst",
+      description: "As the Lead Data Analyst for GDSC FUTMinna (Y), I led data-driven initiatives \
+      that significantly impacted the community's growth and performance. I was responsible for \
+      collecting, analyzing, and visualizing data to track club activities, engagement metrics, \
+      and project outcomes.",
       icon: "🚀"
     },
     {

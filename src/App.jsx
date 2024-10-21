@@ -46,7 +46,7 @@ const App = () => {
             Hello&#128075;, I'm Hussaini Ahmed
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-400 mb-2">
-            Your friendly neighborhood <span className="text-blue-500">GIS and Data Analyst, </span> 
+            Your friendly neighborhood <span className="text-blue-500">Geospatial Data Analyst, </span> 
             currently navigating the rocky terrain of a geology degree at the Federal University of Technology, Minna. 
           </p>
           <p className="text-lg text-gray-600 dark:text-gray-400 mb-8">Think of me as a digital Indiana Jones, but instead of hunting for ancient artifacts, I'm unearthing hidden stories within datasets. So, if you need someone to map out the path to your next big discovery or turn your 
