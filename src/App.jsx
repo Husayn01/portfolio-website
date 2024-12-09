@@ -46,11 +46,12 @@ const App = () => {
             Hello&#128075;, I'm Hussaini Ahmed
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-400 mb-2">
-            Your friendly neighborhood <span className="text-blue-500">Geospatial Data Analyst, </span> 
-            currently navigating the rocky terrain of a geology degree at the Federal University of Technology, Minna. 
+            Your friendly neighborhood <span className="text-blue-500">Data Scientist,</span> 
+            currently navigating the rocky terrain of a geology degree at the Federal University of Technology, Minna.
+            With a strong passion for the oil and gas sector and its integration with machine learning, I combine analytical skills and domain expertise to uncover valuable insights. 
           </p>
-          <p className="text-lg text-gray-600 dark:text-gray-400 mb-8">Think of me as a digital Indiana Jones, but instead of hunting for ancient artifacts, I'm unearthing hidden stories within datasets. So, if you need someone to map out the path to your next big discovery or turn your 
-            data into dazzling insights, you've come to the right place. Let's rock and roll! </p>
+          <p className="text-lg text-gray-600 dark:text-gray-400 mb-8">Think of me as a digital Indiana Jones, but instead of hunting for ancient artifacts, I'm leveraging machine learning and data science to unearth patterns and trends that drive innovation. So, if you need someone to map out the 
+            path to your next big discovery or transform complex datasets into actionable insights, you’ve come to the right place. Let's rock and roll! </p>
           <SocialMedia />
         </main> 
       </div>
